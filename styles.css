@@ -48,4 +48,21 @@ h1{
     margin-bottom: 30px;
     color: var(--Very-dark-desaturated-blue);
 }
-
+.question{
+    display:flex;
+    align-items: star;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(240deg 5% 72%);
+    margin-bottom: 20px;
+}
+h4{
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.text p{
+    line-height: 1.6;
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 20px;
+    display: none;
+}
