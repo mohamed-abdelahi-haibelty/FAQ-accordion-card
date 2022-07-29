@@ -16,6 +16,7 @@
 body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--Soft-violet);
+    font-size: 12px;
 }
 
 .container{
@@ -42,7 +43,7 @@ body{
     top: -187px;
 }
 h1{
-    margin-left: 102px;
+    margin-left: 112px;
     margin-top: -163px;
     margin-bottom: 30px;
     color: var(--Very-dark-desaturated-blue);
