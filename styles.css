@@ -26,4 +26,23 @@ body{
    padding-right: 25px;
    text-align: center;
 }
+.bg-img{
+    background-image: url(images/illustration-woman-online-mobile.svg);
+    height: 246px;
+    background-size: 280px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -125px;
+}
+
+/*
+.bg-img img{
+    margin-top: -120px;
+    position: relative;
+}
+position: absolute;
+    top: 150px;
+    left: 48px;
+    width: 288px;
+    */
 
