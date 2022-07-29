@@ -19,38 +19,27 @@ body{
 }
 
 .container{
-    border-radius: 20px;
-    background-color: var(--Light-grayish-blue);
-    margin: 139px 20px 20px 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+   border-radius: 20px;
+   background-color: var(--Light-grayish-blue);
+   margin:139px 20px 20px 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   text-align: center;
 }
 .bg-img{
-    background-image: url(images/bg-pattern-mobile.svg);
-    height: 129px;
-    background-size: 280px;
+    background-image: url(images/illustration-woman-online-mobile.svg);
+    height: 192px;
+    background-size: 254px;
     background-repeat: no-repeat;
     position: relative;
-    top: -216px;
+    top: -109px;
 }
 .bg-pattern{
     background-image: url(images/bg-pattern-mobile.svg);
-    height: 129px;
-    background-size: 255px;
+    height: 115px;
+    background-size: 262px;
     background-repeat: no-repeat;
     position: relative;
-    top: -216px;
+    top: -187px;
 }
-
-/*
-
-
-
-
-
-    margin-top: -190px;
-    color: var(--Very-dark-desaturated-blue);
-    margin-bottom: 40px;
-
-    */
 
