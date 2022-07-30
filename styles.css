@@ -81,6 +81,9 @@ p.active{
     margin-bottom: 20px;
     display: block !important;
 }
+.arrow img{
+    transform: rotate(180deg);
+}
 @media(min-width:600px){
     body{
         height: calc(100vh - 80px); 
