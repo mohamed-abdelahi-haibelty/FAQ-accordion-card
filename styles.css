@@ -70,22 +70,32 @@ h4{
     margin-bottom: 20px;
     font-weight: 700;
 }
+h4:hover{
+    color: var(--Soft-red);
+    cursor: pointer;
+}
 .text p{
     display: none;
 }h4.active{
     color: var(--Very-dark-desaturated-blue) !important;
+    margin-bottom: 8px !important;
 }
 p.active{
-    line-height: 1.6;
+    line-height: 1.2;
     color: var(--Dark-grayish-blue);
-    margin-bottom: 20px;
+    margin-bottom: 5px !important;
     display: block !important;
+    transition: ease-in 0.7s;
 }
 .arrow img{
     transform: rotate(180deg);
 }
+.arrow img:hover{
+     cursor: pointer;
+}
 .rotation{
-    transform: rotate(0deg);
+    transform: rotate(0deg) !important;
+    transition: ease 0.7s;
 }
 @media(min-width:600px){
     body{
@@ -98,24 +108,36 @@ p.active{
         margin-right: auto;
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 209px;
         background-image: url(images/bg-pattern-desktop.svg);
         background-position: -176% 65%;
         background-size: 508px;
         background-repeat: no-repeat;
     }
     .bg-img{
-        background-image: url("images/illustration-woman-online-desktop.svg");
+        /*background-image: url("images/illustration-woman-online-desktop.svg");
         width: 265px;
         height: 266px;
         top: 93px;
         left: -53px;
         margin-left:0;
         background-position: 106%;
+        background-size: 313px;*/
+
+        /*new design/////////*/
+        background-image: url(images/illustration-woman-online-desktop.svg);
+        width: 265px;
+        height: 266px;
+        top: 175px;
+        left: 295px;
+        margin-left: 0;
+        background-position: 106%;
         background-size: 313px;
+        position: fixed;
     }
     .bg-pattern{
         display: none;
+       
     }
     .box-img{
         position: absolute;
@@ -133,8 +155,12 @@ p.active{
     }
     .faq{
         padding-bottom: 50px;
+        width: 241px;
     }
     .question{
         gap:10px;
+    }
+    .top{
+        top:185px !important;
     }
 }
